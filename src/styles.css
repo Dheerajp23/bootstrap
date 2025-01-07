@@ -55,7 +55,7 @@ body{
 .nav-header-dark{
     background-color: #0b101f !important;
 }
-.navbar-brand , .nav-item .active{
+.navbar-brand , .nav-item :hover{
     color: var(--primary) !important;
 }
 .nav-item{
