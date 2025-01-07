@@ -96,6 +96,7 @@ body{
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 .service-header:hover{
+    transition: .5s linear;
     color: white !important;
     background-color: var(--primary);
 }
