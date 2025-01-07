@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+button {cursor: pointer;}
+.primary{
+    color: var(--primary);
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .blue{
+    background-color: #FEA116;
+  }
+.heebo-font{
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+    background-color: #F1F8FF !important;
+    font-family: 'Cabin';
+}
+.btn.btn-warning{
+    color: white;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.btn.btn-warning:hover{
+    background-color: transparent;
+    color: white;
+}
+.header-main{
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url("/public/img/bg-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header-dark{
+    background-color: #0b101f !important;
+}
+.nav-header-dark{
+    background-color: #0b101f !important;
+}
+.navbar-brand , .nav-item .active{
+    color: var(--primary) !important;
+}
+.nav-item{
+    font-size: 1.1rem;
+}
+
+.navbar-brand .fa{
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    color: var(--light);
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    color: #FEA116!important;
+    border:none !important;
+
+}
+.wrap-2 h2{
+    font-size: 2.5rem;
+}
+
+
+.hero-header{
+    animation: rotate 10s linear infinite;
+
+}
+@keyframes rotate{
+    100%  {rotate: 360deg;}
+
+}
+
+.service-header{
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+.service-header:hover{
+    color: white !important;
+    background-color: var(--primary);
+}
+.service-header .fa{
+    color: var(--primary);
+    font-size: 3rem;
+}
+.service-header:hover .fa{
+    color: var(--light);
+}
+.service-button:hover{
+    color: #FEA116 !important;
+    background-color: #fff;
+}
+
+.formheight{
+    height: 50px;
+}
+.team-item:hover .team-image{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.faSpan{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.faSpan:hover{
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.faSpan:hover a .fa-brands{
+    color: var(--primary);
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:959px) {
+    
+    .navbar-nav{
+        margin-left: 8rem;
+    }
+    .wrap-2 h2 {
+        font-size: 4rem;
+    }
+
+.nav-header-dark{
+    background: transparent !important;
+}
+
+
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .navbar-nav{
+        margin-left: 18rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+}
